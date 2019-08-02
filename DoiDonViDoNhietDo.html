@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chương Trình đổi đơn vị đo nhiệt độ</title>
+    <script src="BasicFun.js" >    </script>
+</head>
+<body>
+<table>
+    <caption>Đổi Nhiệt độ Celsius sang Fahrenheit </caption>
+    <tr>
+        <td><label for="celsius"> FROM:  </label> <input type="number" id="celsius" size="20"/> </td>
+        <td><label for="fahrenheit"> TO:  </label> <input readonly id="fahrenheit" type="number" size="20"/></td>
+        <td><button onclick="convertTemp(document.getElementById('celsius').value)" >CONVERT</button> </td>
+    </tr>
+
+</table>
+
+</body>
+</html>
